@@ -1,0 +1,64 @@
+<!DOCKTYPE html>
+<html>
+	<head> 
+		<title>Edit Profile</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<link href="css.css" rel="stylesheet" type="text/css"/>
+	</head>
+	
+	<body>
+		<center>
+			<form id=biodata>
+			<fieldset>
+			<h1>Edit Profile<br/></h1>			
+			<ol>
+				<li>
+					<label for=nama>Nama</label>
+					<input id=nama name=nama type=text placeholder="Nama awal dan akhir anda" required autofocus>
+				</li>
+				<li>
+					<label for=ttl>TTL</label>
+					<input id=ttl name=ttl type=ttl placeholder="Malang, 12 Januari 1991" required>
+				</li>
+				<li>
+					<label for=jk>Jenis Kelamin</label>
+					<input id=jk name=jk type=jk placeholder="Pria/Wanita" required>
+				</li>
+				<li>
+					<label for=alamat>Alamat Anda</label>
+					<textarea id=alamat name=alamat rows=5 required></textarea>
+				</li>
+				<li>
+					<label for=hobi>Hobi</label>
+					<input id=hobi name=hobi type=text placeholder="Contoh: Makan" required>
+				</li>
+			</ol>
+			</fieldset>
+			
+			<fieldset>
+				<ol>
+					<li>
+						<label for=pend>Riwayat Pendidikan</label>
+						<input id=paud name=paud type=text placeholder="PAUD" required>
+						<input id=sd name=sd type=text placeholder="SD" required>
+						<input id=smp name=smp type=text placeholder="SMP" required>
+						<input id=sma name=sma type=text placeholder="SMA" required>
+					</li>
+					<li>
+						<label for=organisasi>Riwayat Organisasi</label>
+						<textarea id=org name=org rows=5 required></textarea>
+					</li>
+					<li>
+						<label for=prestasi>Prestasi yang Pernah Diraih</label>
+						<textarea id=pres name=pres rows=5 required></textarea>
+					</li>
+				</ol>
+			</fieldset>
+			
+			<fieldset>
+				<button type=submit>Send</button>
+			</fieldset>
+			</form>
+		</center>
+	</body>
+</html>
